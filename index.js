@@ -13,74 +13,90 @@ const generateMarkdown = require("./utils/generateMarkdown");
 // ];
 
 //enter all inquirer prompts to collect user inputs
-inquirer.prompt([
-  {
-    type: "input",
-    name: "title",
-    message: "What is the name title of your project (Required)",
-    validate: (titleInput) => {
-      if (titleInput) {
-        return true;
-      } else {
-        console.log("You need to enter a project title!");
-        return false;
-      }
+
+inquirer
+  .prompt([
+    {
+      type: "input",
+      name: "title",
+      message: "What is the name title of your project (Required)",
+      validate: (titleInput) => {
+        if (titleInput) {
+          return true;
+        } else {
+          console.log("You need to enter a project title!");
+          return false;
+        }
+      },
     },
-  },
-  {
-    type: "input",
-    name: "description",
-    message: "Provide a brieft description of the project (Required)",
-    validate: (descInput) => {
-      if (descInput) {
-        return true;
-      } else {
-        console.log("You need to enter a brief description of the project!");
-        return false;
-      }
+    {
+      type: "input",
+      name: "description",
+      message: "Provide a brieft description of the project (Required)",
+      validate: (descInput) => {
+        if (descInput) {
+          return true;
+        } else {
+          console.log("You need to enter a brief description of the project!");
+          return false;
+        }
+      },
     },
-  },
-  {
-    type: "input",
-    name: "installation",
-    message: "Please enter installation instructions (Required)",
-    validate: (installInstr) => {
-      if (installInstr) {
-        return true;
-      } else {
-        console.log("You need to enter app installation instructions!");
-        return false;
-      }
+    {
+      type: "input",
+      name: "installation",
+      message: "Please enter installation instructions (Required)",
+      validate: (installInstr) => {
+        if (installInstr) {
+          return true;
+        } else {
+          console.log("You need to enter app installation instructions!");
+          return false;
+        }
+      },
     },
-  },
-  {
-    type: "list",
-    name: "contributions",
-    message: "Please enter contributors (Required)",
-    choices: ["Adam Girard-McFadden", "Carleton University", "Others"],
-    validate: (contribute) => {
-      if (contribute) {
-        return true;
-      } else {
-        console.log("You must enter at least contributor!");
-        return false;
-      }
+    {
+      type: "checkbox",
+      name: "contributions",
+      message: "Please enter contributors (Required)",
+      choices: ["Adam Girard-McFadden", "Carleton University", "Others"],
+      validate: (contribute) => {
+        if (contribute) {
+          return true;
+        } else {
+          console.log("You must enter at least contributor!");
+          return false;
+        }
+      },
     },
-  },
-  {
-    type: "input",
-    name: "testing",
-    message: "Please enter testing instructions (Required)",
-    validate: (test) => {
-      if (test) {
-        return true;
-      } else {
-        console.log("You must enter testing instructions!");
-        return false;
-      }
+    {
+      type: "input",
+      name: "testing",
+      message: "Please enter testing instructions (Required)",
+      validate: (test) => {
+        if (test) {
+          return true;
+        } else {
+          console.log("You must enter testing instructions!");
+          return false;
+        }
+      },
     },
-  },
-]);
+  ])
+  .then((readmeData) => {
+    console.log(readmeData);
+    fs.writeFile(
+      "./dist/README.md",
+      JSON.stringify(readmeData, null, "\t"),
+      (err) => {
+        if (err) {
+          return console.log(err);
+        }
+
+        console.log("ReadME file successfully written!");
+      }
+    );
+  });
 
 // // TODO: Create a function to write README file
 // function writeToFile(fileName, data) {}
