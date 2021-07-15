@@ -31,5 +31,5 @@
 
   ## License
 
-  - Licensed under the [MIT license](../license)
+  - Licensed under the [MIT license](license)
 
