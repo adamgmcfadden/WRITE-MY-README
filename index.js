@@ -140,7 +140,7 @@ inquirer
   ])
   .then((data) => {
     console.log(data);
-    fs.writeFile("./dist/README.md", generateMarkdown(data), (err) => {
+    fs.writeFile("./README.md", generateMarkdown(data), (err) => {
       if (err) {
         return console.log(err);
       }
