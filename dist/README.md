@@ -1,33 +1,44 @@
-# Write my ReadMe
 
-## Project Description
+  # Write my ReadMe
 
-- application that takes the users input at the command line and generates a quality readme file for any project
+  ## Project Description
 
-## Table of Contents
+  - application that collects user input from a series of prompts at the terminal and generates a quality readme.md
 
-- [Installation Instructions](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [Testing Instructions](#testing)
-- [License](#license)
+  ## Table of Contents
 
-## Installation Instructions
+  * [Installation Instructions](#installation)
+  * [Usage](#usage)
+  * [Credits](#credits)
+  * [Testing Instructions](#testing)
+  * [License](#license)
 
-- install node, install inquirer etc.
+  ## Installation Instructions
+  
+  - install node, install inquirer, node index.js
 
-## Usage
+  ## Usage
 
-- node <file name>, answer prompts, tada!
+  - instructional video coming
 
-## Credits
+  ## Credits
 
-- Adam Girard-McFadden, Carleton University
+  - Adam Girard-McFadden, Carleton University
 
-## Testing Instructions
+  ## License
 
-- tbd
+  - Licensed under the [MIT license](license)
 
-## License
+  ## Contributing
 
-- Licensed under the [MIT license](license)
+  - No opportunities to contribute at this time
+
+  ## Tests
+
+  - TBD
+
+  ## Questions
+
+  - Github Username [adamgmcfadden](https://github.com/adamgmcfadden)
+  - Email address [adam_m_20@hotmail.com]
+

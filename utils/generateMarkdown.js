@@ -53,9 +53,8 @@ const generateMarkdown = (data) => {
 
   ## Questions
 
-  - Not sure what they want here
-
-
+  - Github Username [${data.username}](https://github.com/${data.username})
+  - Email address [${data.email}]
 
 `;
 };

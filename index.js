@@ -95,6 +95,11 @@ inquirer
     },
     {
       type: "input",
+      name: "license",
+      message: "Please enter license name if applicable",
+    },
+    {
+      type: "input",
       name: "testing",
       message: "Please enter testing instructions (Required)",
       validate: (test) => {
@@ -108,8 +113,29 @@ inquirer
     },
     {
       type: "input",
-      name: "license",
-      message: "Please enter license name if applicable",
+      name: "username",
+      message: "Please enter your github username (Required)",
+      validate: (username) => {
+        if (username) {
+          return true;
+        } else {
+          console.log("You must enter your username!");
+          return false;
+        }
+      },
+    },
+    {
+      type: "input",
+      name: "email",
+      message: "Please enter your email address (Required)",
+      validate: (email) => {
+        if (email) {
+          return true;
+        } else {
+          console.log("You must enter your email address!");
+          return false;
+        }
+      },
     },
   ])
   .then((data) => {
