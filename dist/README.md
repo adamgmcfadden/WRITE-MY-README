@@ -1,35 +1,33 @@
+# Write my ReadMe
 
-  # Write my ReadMe
+## Project Description
 
-  ## Project Description
+- application that takes the users input at the command line and generates a quality readme file for any project
 
-  - application that takes the users input at the command line and generates a quality readme file for any project
+## Table of Contents
 
-  ## Table of Contents
+- [Installation Instructions](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [Testing Instructions](#testing)
+- [License](#license)
 
-  * [Installation Instructions](#installation)
-  * [Usage](#usage)
-  * [Credits](#credits)
-  * [Testing Instructions](#testing)
-  * [License](#license)
+## Installation Instructions
 
-  ## Installation Instructions
-  
-  - install node, install inquirer etc.
+- install node, install inquirer etc.
 
-  ## Usage
+## Usage
 
-  - node <file name>, answer prompts, tada!
+- node <file name>, answer prompts, tada!
 
-  ## Credits
+## Credits
 
-  - Adam Girard-McFadden, Carleton University
+- Adam Girard-McFadden, Carleton University
 
-  ## Testing Instructions
+## Testing Instructions
 
-  - tbd
+- tbd
 
-  ## License
+## License
 
-  - Licensed under the [MIT license](license)
-
+- Licensed under the [MIT license](license)
