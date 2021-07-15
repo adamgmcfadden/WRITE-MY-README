@@ -2,24 +2,34 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
-// TODO: Create an array of questions for user input
-// const questions = [
-//   "What is the title of your project?",
-//   "Enter a description of the project",
-//   "Please enter installation instructions",
-//   "Please enter usage information",
-//   "Please enter contributions",
-//   "Please enter testing instructions",
-// ];
+//TODO: Create an array of questions for user input
+const questions = [
+  "What is the name title of your project (Required)?",
+  "Provide a brieft description of the project (Required)?",
+  "What are the steps required to install your project? (Required)?",
+  "Provide instructions and examples for use (Required).",
+  "Please enter the name(username if applicable) of all those who contributed on the project (Required).",
+  "Please enter testing instructions (Required).",
+  "Please enter license name if applicable.",
+];
+
+const questionTitles = [
+  "title",
+  "description",
+  "installation",
+  "usage",
+  "credits",
+  "testing",
+  "license",
+];
 
 //enter all inquirer prompts to collect user inputs
-
 inquirer
   .prompt([
     {
       type: "input",
       name: "title",
-      message: "What is the name title of your project (Required)",
+      message: "What is the name title of your project (Required)?",
       validate: (titleInput) => {
         if (titleInput) {
           return true;
@@ -32,12 +42,12 @@ inquirer
     {
       type: "input",
       name: "description",
-      message: "Provide a brieft description of the project (Required)",
+      message: "Provide a brieft description of the project (Required)?",
       validate: (descInput) => {
         if (descInput) {
           return true;
         } else {
-          console.log("You need to enter a brief description of the project!");
+          console.log("You need to enter a brief description of the project!?");
           return false;
         }
       },
@@ -46,7 +56,7 @@ inquirer
       type: "input",
       name: "installation",
       message:
-        "What are the steps required to install your project? (Required)",
+        "What are the steps required to install your project? (Required)?",
       validate: (installInstr) => {
         if (installInstr) {
           return true;

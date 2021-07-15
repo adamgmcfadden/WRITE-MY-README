@@ -39,13 +39,23 @@ const generateMarkdown = (data) => {
 
   - ${data.credits}
 
-  ## Testing Instructions
-
-  - ${data.testing}
-
   ## License
 
   - Licensed under the [${data.license} license](license)
+
+  ## Contributing
+
+  - No opportunities to contribute at this time
+
+  ## Tests
+
+  - ${data.testing}
+
+  ## Questions
+
+  - Not sure what they want here
+
+
 
 `;
 };
