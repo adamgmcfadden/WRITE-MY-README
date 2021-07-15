@@ -56,12 +56,25 @@ inquirer
       },
     },
     {
+      type: "input",
+      name: "usage",
+      message: "Please enter usage instructions (Required)",
+      validate: (usageInst) => {
+        if (usageInst) {
+          return true;
+        } else {
+          console.log("You need to enter app installation instructions!");
+          return false;
+        }
+      },
+    },
+    {
       type: "checkbox",
-      name: "contributions",
+      name: "credits",
       message: "Please enter contributors (Required)",
       choices: ["Adam Girard-McFadden", "Carleton University", "Others"],
-      validate: (contribute) => {
-        if (contribute) {
+      validate: (credits) => {
+        if (credits) {
           return true;
         } else {
           console.log("You must enter at least contributor!");
@@ -82,20 +95,21 @@ inquirer
         }
       },
     },
+    {
+      type: "input",
+      name: "license",
+      message: "Please enter license name if applicable",
+    },
   ])
-  .then((readmeData) => {
-    console.log(readmeData);
-    fs.writeFile(
-      "./dist/README.md",
-      JSON.stringify(readmeData, null, "\t"),
-      (err) => {
-        if (err) {
-          return console.log(err);
-        }
-
-        console.log("ReadME file successfully written!");
+  .then((data) => {
+    console.log(data);
+    fs.writeFile("./dist/README.md", generateMarkdown(data), (err) => {
+      if (err) {
+        return console.log(err);
       }
-    );
+
+      console.log("ReadME file successfully written!");
+    });
   });
 
 // // TODO: Create a function to write README file
