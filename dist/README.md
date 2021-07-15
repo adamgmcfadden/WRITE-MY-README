@@ -3,34 +3,33 @@
 
   ## Project Description
 
-  - application that collects user input at the command line to generate a professional quality README.md
+  - application that takes the users input at the command line and generates a quality readme file for any project
 
   ## Table of Contents
 
-  * [Installation Instructions] (#installation)
+  * [Installation Instructions](#installation)
   * [Usage](#usage)
   * [Credits](#credits)
   * [Testing Instructions](#testing)
   * [License](#license)
 
-
-
   ## Installation Instructions
   
-  - download node.js, download inquirer etc.
+  - install node, install inquirer etc.
 
   ## Usage
 
-  - tbd
+  - node <file name>, answer prompts, tada!
 
   ## Credits
 
-  - Adam Girard-McFadden,Carleton University
+  - Adam Girard-McFadden, Carleton University
 
   ## Testing Instructions
 
-  - testing
+  - tbd
 
   ## License
 
-  - MIT
+  - Licensed under the [MIT license](license)
+

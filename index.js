@@ -45,7 +45,8 @@ inquirer
     {
       type: "input",
       name: "installation",
-      message: "Please enter installation instructions (Required)",
+      message:
+        "What are the steps required to install your project? (Required)",
       validate: (installInstr) => {
         if (installInstr) {
           return true;
@@ -58,7 +59,7 @@ inquirer
     {
       type: "input",
       name: "usage",
-      message: "Please enter usage instructions (Required)",
+      message: "Provide instructions and examples for use. (Required)",
       validate: (usageInst) => {
         if (usageInst) {
           return true;
@@ -69,10 +70,10 @@ inquirer
       },
     },
     {
-      type: "checkbox",
+      type: "input",
       name: "credits",
-      message: "Please enter contributors (Required)",
-      choices: ["Adam Girard-McFadden", "Carleton University", "Others"],
+      message:
+        "Please enter the name(username if applicable) of all those who contributed on the project (Required)",
       validate: (credits) => {
         if (credits) {
           return true;
