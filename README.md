@@ -2,7 +2,7 @@
   # Write-my-README
 
   ## Project Description
-  ![License](https://img.shields.io/badge/License-MIT-blue.svg "License Badge)
+  ![License](https://img.shields.io/badge/License-MIT-blue.svg "License Badge")
 
   - An application that collects user input through a series of prompts at the command line and returns a quality README.md for any project
 
