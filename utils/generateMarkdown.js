@@ -16,6 +16,7 @@ const generateMarkdown = (data) => {
   # ${data.title}
 
   ## Project Description
+  ![License](https://img/shields.io/badge/License-${data.license}-blue.svg "License Badge)
 
   - ${data.description}
 
@@ -41,7 +42,9 @@ const generateMarkdown = (data) => {
 
   ## License
 
-  - Licensed under the [${data.license} license](license)
+  - For more information on the License, click on the link below. 
+
+  [License](https://opensource.org/license/${data.license})
 
   ## Contributing
 
