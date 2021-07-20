@@ -4,7 +4,7 @@ const renderLicenseBadge = (license) => {
   if (license === false) {
     return "";
   } else {
-    return `![License](https://img.shields.io/badge/License-'${license}'-blue.svg "License Badge")`;
+    return `![License](https://img.shields.io/badge/License-${license}-blue.svg "License Badge")`;
   }
 };
 

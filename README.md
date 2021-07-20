@@ -2,7 +2,7 @@
   # Write my readme
 
   ## Project Description
-  ![License](https://img.shields.io/badge/License-'MIT'-blue.svg "License Badge")
+  ![License](https://img.shields.io/badge/License-MIT-blue.svg "License Badge")
 
   - Application that generates quality readme by collecting user input at the command line
 
