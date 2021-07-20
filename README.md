@@ -1,10 +1,10 @@
 
-  # Write-my-README
+  # Write my readme
 
   ## Project Description
-  ![License](https://img.shields.io/badge/License-MIT-blue.svg "License Badge)
+  ![License](https://img.shields.io/badge/License-'MIT'-blue.svg "License Badge")
 
-  - An application that collects user input through a series of prompts at the command line and returns a quality README.md for any project
+  - Application that generates quality readme by collecting user input at the command line
 
   ## Table of Contents
 
@@ -16,21 +16,21 @@
 
   ## Installation Instructions
   
-  - - Install Node.js, - Install npm Inquire.js, Open terminal and travel to directory where index.js file is located, - Command: node index.js
+  - node js, inquirer package, command line - node index.js
 
   ## Usage
 
-  - Instructional Video to be included
+  - tbd
 
   ## Credits
 
-  - Started Code and project idea created by Carleton University, all other code provided by Adam Girard-McFadden
+  - Adam Girard-McFadden, Carleton University
 
   ## License
 
   - For more information on the License, click on the link below. 
 
-  [License](https://opensource.org/licenses/MIT)
+  [License](https://choosealicense.com/licenses/MIT/)
 
   ## Contributing
 
@@ -38,10 +38,10 @@
 
   ## Tests
 
-  - Testing procedure to be included at a later date
+  - tbd
 
   ## Questions
 
-  - Github Username [adamgmcfadden](https://github.com/adamgmcfadden)
+  - Github Username: [agmcfadden](https://github.com/agmcfadden)
   - Email address: adam_m_20@hotmail.com
 

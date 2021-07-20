@@ -1,6 +1,12 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-const renderLicenseBadge = (license) => {};
+const renderLicenseBadge = (license) => {
+  if (license === false) {
+    return "";
+  } else {
+    return `![License](https://img.shields.io/badge/License-'${license}'-blue.svg "License Badge")`;
+  }
+};
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -16,7 +22,7 @@ const generateMarkdown = (data) => {
   # ${data.title}
 
   ## Project Description
-  ![License](https://img.shields.io/badge/License-${data.license}-blue.svg "License Badge)
+  ${renderLicenseBadge(data.license)}
 
   - ${data.description}
 
@@ -44,7 +50,7 @@ const generateMarkdown = (data) => {
 
   - For more information on the License, click on the link below. 
 
-  [License](https://opensource.org/licenses/${data.license})
+  [License](https://choosealicense.com/licenses/${data.license}/)
 
   ## Contributing
 
@@ -56,7 +62,7 @@ const generateMarkdown = (data) => {
 
   ## Questions
 
-  - Github Username [${data.username}](https://github.com/${data.username})
+  - Github Username: [${data.username}](https://github.com/${data.username})
   - Email address: ${data.email}
 
 `;
