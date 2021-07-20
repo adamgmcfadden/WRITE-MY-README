@@ -1,32 +1,13 @@
-// TODO: Include packages needed for this application
+// Include packages required for this app - fs, inquirer, generateMarkdown (function from ./utils/generateMarkdown)
 const fs = require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
-//TODO: Create an array of questions for user input
-const questions = [
-  "What is the name title of your project (Required)?",
-  "Provide a brieft description of the project (Required)?",
-  "What are the steps required to install your project? (Required)?",
-  "Provide instructions and examples for use (Required).",
-  "Please enter the name(username if applicable) of all those who contributed on the project (Required).",
-  "Please enter testing instructions (Required).",
-  "Please enter license name if applicable.",
-];
-
-const questionTitles = [
-  "title",
-  "description",
-  "installation",
-  "usage",
-  "credits",
-  "testing",
-  "license",
-];
 
 //enter all inquirer prompts to collect user inputs
-inquirer
-  .prompt([
+const promptUser = () => {
+  return inquirer.prompt([
     {
+      //Project title
       type: "input",
       name: "title",
       message: "What is the name title of your project (Required)?",
@@ -40,6 +21,7 @@ inquirer
       },
     },
     {
+      //Project description
       type: "input",
       name: "description",
       message: "Provide a brieft description of the project (Required)?",
@@ -53,6 +35,7 @@ inquirer
       },
     },
     {
+      //installation instructions
       type: "input",
       name: "installation",
       message:
@@ -67,6 +50,7 @@ inquirer
       },
     },
     {
+      //usage instructions
       type: "input",
       name: "usage",
       message: "Provide instructions and examples for use. (Required)",
@@ -80,6 +64,7 @@ inquirer
       },
     },
     {
+      //credits to...
       type: "input",
       name: "credits",
       message:
@@ -94,11 +79,14 @@ inquirer
       },
     },
     {
-      type: "input",
+      //list of common licenses
+      type: "list",
       name: "license",
       message: "Please enter license name if applicable",
+      choices: ["Apache", "MIT", "ISC", "GNU GPLv3"],
     },
     {
+      //testing instructions
       type: "input",
       name: "testing",
       message: "Please enter testing instructions (Required)",
@@ -112,6 +100,7 @@ inquirer
       },
     },
     {
+      //github username
       type: "input",
       name: "username",
       message: "Please enter your github username (Required)",
@@ -125,6 +114,7 @@ inquirer
       },
     },
     {
+      //email address
       type: "input",
       name: "email",
       message: "Please enter your email address (Required)",
@@ -137,23 +127,21 @@ inquirer
         }
       },
     },
-  ])
-  .then((data) => {
-    console.log(data);
-    fs.writeFile("./README.md", generateMarkdown(data), (err) => {
+  ]);
+};
+
+//call promptUser function
+promptUser()
+  //after info collected then write readme file with collected info
+  .then((readmeData) => {
+    console.log(readmeData);
+    fs.writeFile("./README.md", generateMarkdown(readmeData), (err) => {
+      //if error, console log error
       if (err) {
         return console.log(err);
       }
 
+      //if successful, console log successful message
       console.log("ReadME file successfully written!");
     });
   });
-
-// // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
-
-// // TODO: Create a function to initialize app
-// function init() {}
-
-// // Function call to initialize app
-// init();
