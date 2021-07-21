@@ -1,49 +1,46 @@
+# Write-my-readme
 
-  # Write-my-readme
+## Project Description
 
-  ## Project Description
-  ![License](https://img.shields.io/badge/License-MIT-blue.svg "License Badge")
+![License](https://img.shields.io/badge/License-MIT-blue.svg "License Badge")
 
-  brief description
+brief description
 
-  ## Table of Contents
+## Table of Contents
 
-  * [Installation Instructions](#installation)
-  * [Usage](#usage)
-  * [Credits](#credits)
-  * [Testing Instructions](#testing)
-  * [License](#license)
+- [Installation Instructions](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [Testing Instructions](#testing)
+- [License](#license)
 
-  ## Installation Instructions
-  
-  Step 1, step 2 and 3
+## Installation Instructions
 
-  ## Usage
+To get the development environment running, one will need clone the MarkMeDown repository to their workstation. If not done already, ensure node.js is installed on their workstation. At the root of the directory, create a .gitignore file and add node*modules and .DS_Store to it. At the command-line, write \*\*npm \_init*** to create a package.json file. Again at the command-line write **npm _install inquirer_** to install the inquirer package. Finally, to get the app running run this last command: **node _index.js_\*\*
 
-  Instructional video below
+## Usage
 
-  ## Credits
+Instructional video below
 
-  Adam Girard-McFadden
+## Credits
 
-   ## License
+Adam Girard-McFadden
 
-  For more information on the License, click on the link below. 
+## License
 
-   [License: MIT](https://choosealicense.com/licenses/mit/)
+For more information on the License, click on the link below.
 
-  ## Contributing
+[License: MIT](https://choosealicense.com/licenses/mit/)
 
-  
+## Contributing
 
-  ## Tests
+## Tests
 
-  no test exist at this time
+no test exist at this time
 
-  ## Questions
+## Questions
 
-  Contact me via my github profile or email address (links below)
+Contact me via my github profile or email address (links below)
 
-  - Github Username: [adamgmcfadden](https://github.com/adamgmcfadden)
-  - Email address: adam_m_20@hotmail.com
-
+- Github Username: [adamgmcfadden](https://github.com/adamgmcfadden)
+- Email address: adam_m_20@hotmail.com
