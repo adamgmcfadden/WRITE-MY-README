@@ -1,10 +1,10 @@
 
-  # WRITE-MY-README
+  # Write-my-readme
 
   ## Project Description
   ![License](https://img.shields.io/badge/License-MIT-blue.svg "License Badge")
 
-  An application that collects user input through a series a prompts at the command line and returns a quality README.md for any project.
+  brief description
 
   ## Table of Contents
 
@@ -16,15 +16,15 @@
 
   ## Installation Instructions
   
-  To get the development environment running, one will need clone the MarkMeDown repository to their workstation. If not done already, ensure node.js is installed on their workstation. At the root of the directory, create a .gitignore file and add node_modules and .DS_Store to it. At the command-line, write <npm init> to create a package.json file. Again at the command-line write <npm install inquirer> to install the inquirer package. Finally, to get the app running run this last command: <node index.js>
+  Step 1, step 2 and 3
 
   ## Usage
 
-  Instructional Video to be included
+  Instructional video below
 
   ## Credits
 
-  Starter Code and project idea created by Carleton University, all other code provided by Adam Girard-McFadden. 
+  Adam Girard-McFadden
 
    ## License
 
@@ -38,7 +38,7 @@
 
   ## Tests
 
-  No tests written yet
+  no test exist at this time
 
   ## Questions
 
