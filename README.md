@@ -1,10 +1,10 @@
 
-  # Write my readme
+  # sdfdfs
 
   ## Project Description
   ![License](https://img.shields.io/badge/License-MIT-blue.svg "License Badge")
 
-  - Application that generates quality readme by collecting user input at the command line
+  - fsdfsf
 
   ## Table of Contents
 
@@ -16,21 +16,20 @@
 
   ## Installation Instructions
   
-  - node js, inquirer package, command line - node index.js
+  - sfsfs
 
   ## Usage
 
-  - tbd
+  - fsff
 
   ## Credits
 
-  - Adam Girard-McFadden, Carleton University
+  - fsfs
 
-  ## License
+   ## License
 
   - For more information on the License, click on the link below. 
-
-  [License](https://choosealicense.com/licenses/MIT/)
+   [License: MIT](https://choosealicense.com/licenses/mit/)
 
   ## Contributing
 
@@ -38,10 +37,10 @@
 
   ## Tests
 
-  - tbd
+  - sdfs
 
   ## Questions
 
-  - Github Username: [agmcfadden](https://github.com/agmcfadden)
-  - Email address: adam_m_20@hotmail.com
+  - Github Username: [fdsfsd](https://github.com/fdsfsd)
+  - Email address: sfsf
 
