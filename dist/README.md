@@ -1,10 +1,10 @@
 
-  # sdfdfsd
+  # Write-my-readme
 
   ## Project Description
-  ![License](https://img.shields.io/badge/License-Apache-blue.svg "License Badge")
+  ![License](https://img.shields.io/badge/License-MIT-blue.svg "License Badge")
 
-  fdsfsfsd
+  brief description
 
   ## Table of Contents
 
@@ -16,34 +16,34 @@
 
   ## Installation Instructions
   
-  fsdfs
+  step 1 , step 2 and 3
 
   ## Usage
 
-  f
+  Instructional video below
 
   ## Credits
 
-  sdfdsf
+  Adam Girard-McFadden
 
    ## License
 
   For more information on the License, click on the link below. 
 
-   [License: Apache](https://choosealicense.com/licenses/apache/)
+   [License: MIT](https://choosealicense.com/licenses/mit/)
 
   ## Contributing
 
-  dsfdsf
+  
 
   ## Tests
 
-  sdfsf
+  no test at this time
 
   ## Questions
 
   Contact me via my github profile or email address (links below)
 
-  - Github Username: [sdfs](https://github.com/sdfs)
-  - Email address: sdf
+  - Github Username: [adamgmcfadden](https://github.com/adamgmcfadden)
+  - Email address: adam_m_20@hotmail.com
 
