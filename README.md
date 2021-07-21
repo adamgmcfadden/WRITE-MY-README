@@ -1,10 +1,10 @@
 
-  # Write my readme
+  # adadasd
 
   ## Project Description
-  ![License](https://img.shields.io/badge/License-MIT-blue.svg "License Badge")
+  ![License](https://img.shields.io/badge/License-Apache-blue.svg "License Badge")
 
-  - Application that generates quality readme by collecting user input at the command line
+  - asdasda
 
   ## Table of Contents
 
@@ -16,21 +16,21 @@
 
   ## Installation Instructions
   
-  - node js, inquirer package, command line - node index.js
+  - asdasda
 
   ## Usage
 
-  - tbd
+  - asdad
 
   ## Credits
 
-  - Adam Girard-McFadden, Carleton University
+  - asdasd
 
   ## License
 
   - For more information on the License, click on the link below. 
 
-  [License](https://choosealicense.com/licenses/MIT/)
+  [License](https://choosealicense.com/licenses/Apache/)
 
   ## Contributing
 
@@ -38,10 +38,10 @@
 
   ## Tests
 
-  - tbd
+  - adasdasd
 
   ## Questions
 
-  - Github Username: [agmcfadden](https://github.com/agmcfadden)
-  - Email address: adam_m_20@hotmail.com
+  - Github Username: [asdasda](https://github.com/asdasda)
+  - Email address: dasdasd
 

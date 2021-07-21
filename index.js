@@ -83,7 +83,7 @@ const promptUser = () => {
       type: "list",
       name: "license",
       message: "Please enter license name if applicable",
-      choices: ["Apache", "MIT", "ISC", "GNU GPLv3"],
+      choices: ["Apache", "MIT", "ISC", "GPL-v3.0", "None"],
     },
     {
       //testing instructions
