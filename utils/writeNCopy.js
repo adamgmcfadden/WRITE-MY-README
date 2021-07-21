@@ -1,5 +1,7 @@
+//include fs package
 const fs = require("fs");
 
+// create writeFile promise to be used in the index.js file
 const writeFile = (fileContent) => {
   return new Promise((resolve, reject) => {
     fs.writeFile("./README.md", fileContent, (err) => {
@@ -19,6 +21,7 @@ const writeFile = (fileContent) => {
   });
 };
 
+// create copyFile promise to be used in the index.js file
 const copyFile = (fileContent) => {
   return new Promise((resolve, reject) => {
     fs.copyFile("./README.md", "./dist/README.md", (err) => {

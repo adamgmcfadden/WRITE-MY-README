@@ -94,6 +94,13 @@ const promptUser = () => {
     {
       //testing instructions
       type: "input",
+      name: "contributing",
+      message:
+        "If you'd like to allow other developers to contribute, please enter instructions here. If not, press ENTER to skip",
+    },
+    {
+      //testing instructions
+      type: "input",
       name: "testing",
       message: "Please enter testing instructions (Required)",
       //use validate to prevent skipping question

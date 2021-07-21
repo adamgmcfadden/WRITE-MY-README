@@ -23,7 +23,7 @@ const renderLicenseSection = (license) => {
   } else {
     return ` ## License
 
-  - For more information on the License, click on the link below. `;
+  For more information on the License, click on the link below. `;
   }
 };
 
@@ -35,7 +35,7 @@ const generateMarkdown = (data) => {
   ## Project Description
   ${renderLicenseBadge(data.license)}
 
-  - ${data.description}
+  ${data.description}
 
   ## Table of Contents
 
@@ -47,28 +47,31 @@ const generateMarkdown = (data) => {
 
   ## Installation Instructions
   
-  - ${data.installation}
+  ${data.installation}
 
   ## Usage
 
-  - ${data.usage}
+  ${data.usage}
 
   ## Credits
 
-  - ${data.credits}
+  ${data.credits}
 
   ${renderLicenseSection(data.license)}
+
   ${renderLicenseLink(data.license)}
 
   ## Contributing
 
-  - No opportunities to contribute at this time
+  ${data.contributing}
 
   ## Tests
 
-  - ${data.testing}
+  ${data.testing}
 
   ## Questions
+
+  Contact me via my github profile or email address (links below)
 
   - Github Username: [${data.username}](https://github.com/${data.username})
   - Email address: ${data.email}
