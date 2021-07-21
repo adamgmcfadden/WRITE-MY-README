@@ -1,9 +1,10 @@
 
-  # Write my ReadMe
+  # sdfdfs
 
   ## Project Description
+  ![License](https://img.shields.io/badge/License-MIT-blue.svg "License Badge")
 
-  - application that collects user input from a series of prompts at the terminal and generates a quality readme.md
+  - fsdfsf
 
   ## Table of Contents
 
@@ -15,19 +16,20 @@
 
   ## Installation Instructions
   
-  - install node, install inquirer, node index.js
+  - sfsfs
 
   ## Usage
 
-  - instructional video coming
+  - fsff
 
   ## Credits
 
-  - Adam Girard-McFadden, Carleton University
+  - fsfs
 
-  ## License
+   ## License
 
-  - Licensed under the [MIT license](license)
+  - For more information on the License, click on the link below. 
+   [License: MIT](https://choosealicense.com/licenses/mit/)
 
   ## Contributing
 
@@ -35,10 +37,10 @@
 
   ## Tests
 
-  - TBD
+  - sdfs
 
   ## Questions
 
-  - Github Username [adamgmcfadden](https://github.com/adamgmcfadden)
-  - Email address [adam_m_20@hotmail.com]
+  - Github Username: [fdsfsd](https://github.com/fdsfsd)
+  - Email address: sfsf
 
