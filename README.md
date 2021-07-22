@@ -42,8 +42,8 @@
    [License: MIT](https://choosealicense.com/licenses/mit/)
 
   ## Contributing
-
   
+  No opportunities to contribute at this time.  
 
   ## Tests
 
