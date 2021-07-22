@@ -16,7 +16,13 @@
 
   ## Installation Instructions
   
-  To get the development environment running, one will need clone the MarkMeDown repository to their workstation. If not done already, ensure node.js is installed on their workstation. At the root of the directory, create a .gitignore file and add node_modules and .DS_Store to it. At the command-line, write **npm _init_** to create a package.json file. Again at the command-line write **npm _install inquirer_** to install the inquirer package. Finally, to get the app running run this last command: **node _index.js_**
+  **The following steps must be followed to get the development environment running:**
+  - Clone the MarkMeDown repository to a local directory. 
+  - If not done already, ensure node.js is installed on your workstation.
+  - At the root of the directory, create a .gitignore file and add node_modules and .DS_Store to it. 
+  - At the command-line, write **npm _init_** to create a package.json file. 
+  - At the command-line write **npm _install inquirer_** to install the inquirer package. 
+  - Finally, to get the app running type in this last command: **node _index.js_**
 
   ## Usage
   Screenshot of example: 
