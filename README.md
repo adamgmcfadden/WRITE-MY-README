@@ -17,7 +17,7 @@
   ## Installation Instructions
   
   **The following steps must be followed to get the development environment running:**
-  - Clone the MarkMeDown repository to a local directory. 
+  - Clone the WRITE-MY-README repository to a local directory. 
   - If not done already, ensure node.js is installed on your workstation.
   - At the root of the directory, create a .gitignore file and add node_modules and .DS_Store to it. 
   - At the command-line, write **npm _init_** to create a package.json file. 
