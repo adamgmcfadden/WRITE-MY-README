@@ -21,7 +21,7 @@
   ## Usage
   Screenshot of example: 
   
-  ![screenshot](https://user-images.githubusercontent.com/83710803/126715529-02b2546f-560f-4d3e-b91a-bdc4a4815bdc.png)
+  ![screenshot](https://user-images.githubusercontent.com/83710803/126715679-031c65df-64e2-484a-9ab1-ce515f55342e.png)
 
   See instructional video: [Instructional Video](https://drive.google.com/file/d/1pbWwhIeUigwKnMlPiYBt0p23xkZ6tE76/view) 
 
