@@ -25,7 +25,7 @@
   - Finally, to get the app running type in this last command: **node _index.js_**
 
   ## Usage
-  Screenshot of example: 
+  Screenshot of working example: 
   
   ![screenshot](https://user-images.githubusercontent.com/83710803/126715952-88fa41bb-d544-44ab-a78f-89779fd57f97.png)
 
