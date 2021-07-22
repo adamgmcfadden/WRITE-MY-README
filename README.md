@@ -20,11 +20,11 @@
 
   ## Usage
 
-  See instructional video: https://drive.google.com/file/d/1pbWwhIeUigwKnMlPiYBt0p23xkZ6tE76/view 
+  See instructional video: [Instructional Video](https://drive.google.com/file/d/1pbWwhIeUigwKnMlPiYBt0p23xkZ6tE76/view) 
 
   ## Credits
 
-  Starter Code and project idea created by Carleton University, code for writeFile() and copyFile() functions copied from Carleton University – Module 9.5.4 and 9.5.5. All other code provided by Adam Girard-McFadden. 
+  Starter Code and project idea created by Carleton University, code for writeFile() and copyFile() functions copied from Carleton University Coding Bootcamp – Module 9.5.4 and 9.5.5. All other code provided by Adam Girard-McFadden. 
 
    ## License
 
