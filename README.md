@@ -20,9 +20,9 @@
   - Clone the WRITE-MY-README repository to a local directory. 
   - If not done already, ensure node.js is installed on your workstation.
   - At the root of the directory, create a .gitignore file and add node_modules and .DS_Store to it. 
-  - At the command-line, write **npm _init_** to create a package.json file. 
-  - At the command-line write **npm _install inquirer_** to install the inquirer package. 
-  - Finally, to get the app running type in this last command: **node _index.js_**
+  - At the command-line, write `npm init` to create a package.json file. 
+  - At the command-line write `npm install inquirer` to install the inquirer package. 
+  - Finally, to get the app running type in this last command: `node index.js`
 
   ## Usage
   Screenshot of working example: 
